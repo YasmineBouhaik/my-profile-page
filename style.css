@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;500&display=swap');
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: rgb(203, 223, 189);
+ }
+
+h1 {
+  color: #574b90;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #778beb;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list-inlign {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+.logo1 {
+  color: #3dc1d3;
+}
+
+.logo2 {
+  color: #3dc1d3;
+}
+
+.logo3 {
+  color: #3dc1d3;
+}
+
+
+li {
+  display: inline
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-circle {
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+}
+
+.btn-green {
+  color: green
+}
+
+.white-card {
+  background-color: rgb(246, 244, 210);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 800 px;
+  margin: 10px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
